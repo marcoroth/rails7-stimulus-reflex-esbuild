@@ -109,6 +109,9 @@ import "./config/stimulus_reflex"
 ❯ rails g controller home index
 ```
 
+```bash
+npm set-script build "node esbuild.config.js"
+```
 
 ```bash
 bin/dev
