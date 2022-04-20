@@ -1,0 +1,17 @@
+{
+  "name": "app",
+  "private": "true",
+  "dependencies": {
+    "@hotwired/stimulus": "^3.0.1",
+    "@hotwired/turbo-rails": "^7.1.1",
+    "@rails/actioncable": "7.0.2-3",
+    "cable_ready": "5.0.0-pre9",
+    "esbuild": "^0.14.36",
+    "esbuild-rails": "^1.0.3",
+    "stimulus_reflex": "3.5.0-pre9"
+  },
+  "scripts": {
+    "build": "node esbuild.config.js",
+    "build:default": "esbuild app/javascript/*.* --bundle --sourcemap --outdir=app/assets/builds"
+  }
+}
