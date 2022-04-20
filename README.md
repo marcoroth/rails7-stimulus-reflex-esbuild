@@ -1,5 +1,13 @@
 # Steps to Re-Create
 
+* Rails 7
+* ESBuild
+* Turbo
+* Stimulus 3
+* StimulusReflex 3.5
+* CableReady 5
+
+## Steps
 
 ```bash
 rails -v
