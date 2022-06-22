@@ -1,13 +1,21 @@
-# Steps to Re-Create
+# Rails 7 with Stimulus Reflex and esbuild
+
+## Technology stack
 
 * Rails 7
 * ESBuild
-* Turbo
 * Stimulus 3
 * StimulusReflex 3.5
 * CableReady 5
+* Turbo
 
-## Steps
+## Up and running in three steps
+
+1. `git clone git@github.com:marcoroth/rails7-stimulus-reflex-esbuild.git`
+2. `bin/setup`
+3. `bin/dev`
+
+## Steps to re-create
 
 ```bash
 rails -v
