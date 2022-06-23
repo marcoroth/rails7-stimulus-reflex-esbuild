@@ -33,6 +33,7 @@ FileUtils.chdir APP_ROOT do
   
   puts "\n== Precompiling assets =="
   system! "rake assets:precompile"
+  system! "rake assets:clobber"
 
   puts "\n== Restarting application server =="
   system! "bin/rails restart"
