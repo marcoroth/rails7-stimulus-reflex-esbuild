@@ -3,11 +3,11 @@
 ## Technology stack
 
 * Rails 7
-* ESBuild
-* Stimulus 3
+* Turbo 7.1
+* esbuild
+* Stimulus 3.0
 * StimulusReflex 3.5
-* CableReady 5
-* Turbo
+* CableReady 5.0
 
 ## Up and running in three steps
 
