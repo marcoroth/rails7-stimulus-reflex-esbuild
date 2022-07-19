@@ -7,7 +7,10 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
-    <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+
+    <!-- App because of how ESBuild overwrite the existing asset pipeline application.css -->
+    <%= stylesheet_link_tag "app", "data-turbo-track": "reload" %>
+    <%= javascript_include_tag "app", "data-turbo-track": "reload", defer: true %>
   </head>
 
   <body>

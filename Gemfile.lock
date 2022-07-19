@@ -210,6 +210,9 @@ GEM
       railties (>= 6.0.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
+    view_component (2.61.0)
+      activesupport (>= 5.0.0, < 8.0)
+      method_source (~> 1.0)
     web-console (4.2.0)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -228,6 +231,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-19
+  x86_64-darwin-20
 
 DEPENDENCIES
   bootsnap
@@ -246,6 +250,7 @@ DEPENDENCIES
   stimulus_reflex (= 3.5.0.pre9)
   turbo-rails
   tzinfo-data
+  view_component (~> 2.61)
   web-console
   webdrivers
 

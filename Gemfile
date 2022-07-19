@@ -73,3 +73,5 @@ end
 
 gem "stimulus_reflex", '3.5.0.pre9'
 gem "cable_ready", '5.0.0.pre9'
+
+gem "view_component", "~> 2.61"
